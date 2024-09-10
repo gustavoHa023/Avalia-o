@@ -4,7 +4,7 @@ def menu():
     print("1: Adicionar Aluno: ")
     print("2: Adicionar Nota: ")
     print('3: Média das notas: ')
-    print("99: Sair")
+    print("9: Sair")
 
 
 def adicionar_aluno():
@@ -58,7 +58,7 @@ def main():
             adicionar_nota()
         if opcao == '3':
             calc_media() 
-        elif opcao == '99':
+        elif opcao == '9':
             print("Adeus...")
             break
 
